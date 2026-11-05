@@ -1,0 +1,17 @@
+# Core app
+streamlit>=1.40
+plotly>=5.20
+pandas>=2.0
+numpy>=1.26
+pillow>=10.0
+opencv-python>=4.9
+reportlab>=4.0
+psutil>=5.9
+# Edge inference
+onnxruntime>=1.18          # use onnxruntime-gpu instead on CUDA machines
+onnx>=1.16                 # needed for INT8 quantisation / FP16 conversion
+onnxconverter-common>=1.14 # FP16 conversion (optional)
+# Training / PyTorch export (needs a release that includes YOLO26)
+ultralytics>=8.4
+# IoT (optional - app falls back to local simulation without it)
+paho-mqtt>=2.0

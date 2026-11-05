@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Git and temporary files
+.DS_Store
+Thumbs.db
+
+# Training outputs
+runs/
+
+# Datasets
+datasets/*
+!datasets/.gitkeep
+
+# Model weights
+models/*
+!models/.gitkeep
+*.pt
+*.onnx
+*.engine
+
+# Database
+database/*.db
+database/*.db-*
+database/settings.json
+
+# Uploaded images and generated files
+uploads/*
+results/*
+reports/*
+
+# Keep folders using .gitkeep
+!*/.gitkeep
