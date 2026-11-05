@@ -21,7 +21,7 @@ services.init()
 ui.load_css()
 with st.sidebar:
     st.markdown("<div class='brand'><div class='logo'>EI</div><div><div class='t1'>EdgeInspect AI</div>"
-                "<div class='t2'>Steel Sheet Defect Detection & Quality Inspection</div></div></div>", unsafe_allow_html=True)
+                "<div class='t2'>Steel Surface Defect Detection</div></div></div>", unsafe_allow_html=True)
     choice = st.radio("Navigation", [n for n, _ in NAV], label_visibility="collapsed", key="nav")
     st.markdown("---")
     det = services.detector()
