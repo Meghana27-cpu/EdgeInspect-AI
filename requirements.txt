@@ -4,7 +4,7 @@ plotly>=5.20
 pandas>=2.0
 numpy>=1.26
 pillow>=10.0
-opencv-python>=4.9
+opencv-python-headless>=4.9
 reportlab>=4.0
 psutil>=5.9
 # Edge inference
